@@ -68,7 +68,7 @@ function renderChapter() {
   const c = chapters[state.step];
   state.hintShown = false;
   screen.innerHTML = `
-    <div class="scene story-scene" style="--scene-glow:${["rgba(126,150,164,.32)","rgba(151,91,111,.32)","rgba(181,157,111,.30)"][state.step]}">
+    <div class="scene story-scene chapter-${state.step}" style="--scene-glow:${["rgba(126,150,164,.32)","rgba(151,91,111,.32)","rgba(181,157,111,.30)"][state.step]}">
       <div class="story-art">
         <div class="art-halo"></div><div class="art-symbol">${c.symbol}</div>
         <div class="art-caption">${c.caption}</div>

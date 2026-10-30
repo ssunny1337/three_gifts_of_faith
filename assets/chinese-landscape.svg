@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1300" preserveAspectRatio="xMidYMid slice">
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#26354c"/><stop offset=".48" stop-color="#687184"/><stop offset=".72" stop-color="#b07862"/><stop offset="1" stop-color="#172438"/></linearGradient>
+ <linearGradient id="mist" x2="0" y2="1"><stop stop-color="#d4d0c5" stop-opacity=".35"/><stop offset="1" stop-color="#9ba8ad" stop-opacity="0"/></linearGradient>
+ <linearGradient id="mount" x2=".2" y2="1"><stop stop-color="#66788a"/><stop offset="1" stop-color="#26374b"/></linearGradient>
+ <linearGradient id="robe" x2="1" y2="1"><stop stop-color="#222630"/><stop offset=".55" stop-color="#080e19"/><stop offset="1" stop-color="#30313a"/></linearGradient>
+ <filter id="blur"><feGaussianBlur stdDeviation="22"/></filter>
+ <filter id="glow"><feGaussianBlur stdDeviation="8"/></filter>
+</defs>
+<rect width="900" height="1300" fill="url(#sky)"/>
+<circle cx="265" cy="315" r="100" fill="#f2cda0" opacity=".7" filter="url(#glow)"/><circle cx="265" cy="315" r="56" fill="#f5dfb9" opacity=".92"/>
+<!-- distant cloud bands -->
+<g fill="#e0d8cf" opacity=".22" filter="url(#blur)"><ellipse cx="190" cy="390" rx="290" ry="65"/><ellipse cx="670" cy="510" rx="330" ry="78"/><ellipse cx="440" cy="660" rx="480" ry="55"/></g>
+<!-- distant peaks -->
+<path d="M0 670 105 490 165 550 270 350 340 485 420 300 500 480 590 355 710 555 790 430 900 610V950H0Z" fill="#46596d" opacity=".8"/>
+<path d="m210 452 60-102 70 135-55-40-28 15-22-24zM366 400l54-100 76 180-68-58-28 18zM555 450l35-95 70 145-58-42-24 13z" fill="#c4c5c0" opacity=".55"/>
+<!-- nearer ridges -->
+<path d="M0 760 120 630 205 700 325 540 420 680 545 520 655 700 760 570 900 730V1050H0Z" fill="url(#mount)"/>
+<path d="M0 850q180-140 350-25t550-35v260H0Z" fill="#182a3e" opacity=".72"/>
+<!-- pagoda on cliff -->
+<g transform="translate(85 480)" fill="#202332" stroke="#b58a64" stroke-width="5" stroke-linejoin="round">
+ <path d="M80 290h270v24H80z" fill="#282638"/><path d="m55 290 50-45h270l50 45z"/><path d="M105 245v-95h260v95z" fill="#30303a"/><path d="m78 150 157-62 157 62z" fill="#242331"/><path d="m90 145 145-78 145 78" fill="none" stroke-width="10"/><path d="M130 245v-85m65 85v-85m80 85v-85m65 85v-85" stroke="#c49b6b" stroke-width="5"/>
+ <path d="M115 150q-35-12-65-45 80 12 105 45M355 150q35-12 65-45-80 12-105 45" fill="#292638"/>
+ <path d="M120 85 235 35 350 85 235 62z"/><path d="M235 35V0" stroke-width="6"/>
+ <path d="M105 314h300" stroke-width="8"/>
+</g>
+<!-- temple roof at upper left -->
+<path d="M0 140q110-20 190-105 80 72 175 86l-32 28q-80-6-145-62-75 61-188 83z" fill="#161c2a" stroke="#a87958" stroke-width="5"/>
+<path d="M0 162q110-18 190-83 78 66 175 82" fill="none" stroke="#d3a46e" stroke-width="4"/>
+<!-- plum tree branches and blossoms -->
+<g fill="none" stroke="#211d27" stroke-width="17" stroke-linecap="round"><path d="M900 110Q780 180 735 300T590 480M815 220Q690 220 640 120M745 310Q660 360 620 430M850 175Q820 70 755 30"/></g>
+<g fill="none" stroke="#4b2837" stroke-width="7" stroke-linecap="round"><path d="M840 155 770 75M780 230 700 185M735 300 690 270M690 385 620 350M800 190 860 80"/></g>
+<g fill="#a94e55" stroke="#e0a18b" stroke-width="2" opacity=".95">
+ <g transform="translate(770 80)"><circle r="13"/><circle cx="-18" cy="-8" r="11"/><circle cx="16" cy="-12" r="11"/><circle cx="-9" cy="15" r="11"/><circle cx="13" cy="13" r="11"/><circle r="5" fill="#e8c28a"/></g>
+ <g transform="translate(690 190) scale(.8)"><circle r="13"/><circle cx="-18" cy="-8" r="11"/><circle cx="16" cy="-12" r="11"/><circle cx="-9" cy="15" r="11"/><circle cx="13" cy="13" r="11"/><circle r="5" fill="#e8c28a"/></g>
+ <g transform="translate(630 360) scale(.75)"><circle r="13"/><circle cx="-18" cy="-8" r="11"/><circle cx="16" cy="-12" r="11"/><circle cx="-9" cy="15" r="11"/><circle cx="13" cy="13" r="11"/><circle r="5" fill="#e8c28a"/></g>
+ <g transform="translate(855 175) scale(.9)"><circle r="13"/><circle cx="-18" cy="-8" r="11"/><circle cx="16" cy="-12" r="11"/><circle cx="-9" cy="15" r="11"/><circle cx="13" cy="13" r="11"/><circle r="5" fill="#e8c28a"/></g>
+ <g transform="translate(740 285) scale(.65)"><circle r="13"/><circle cx="-18" cy="-8" r="11"/><circle cx="16" cy="-12" r="11"/><circle cx="-9" cy="15" r="11"/><circle cx="13" cy="13" r="11"/><circle r="5" fill="#e8c28a"/></g>
+</g>
+<!-- lantern -->
+<g transform="translate(45 235)"><path d="M40-100v45" stroke="#d4aa73" stroke-width="5"/><path d="M0-55q40-28 80 0v112q-40 28-80 0z" fill="#9b3e3b" stroke="#e0b77e" stroke-width="5"/><path d="M8-40h64M8 42h64" stroke="#e8c58e" stroke-width="4"/><path d="M40 58v50m-15-2 15 18 15-18" stroke="#d4aa73" stroke-width="4" fill="none"/><path d="M40-20v50" stroke="#eacb9c" stroke-width="2" opacity=".5"/></g>
+<!-- mist foreground -->
+<path d="M0 900q190-90 370 0t530-10v410H0z" fill="url(#mist)" opacity=".55"/>
+<!-- robed swordsman silhouette on right -->
+<g transform="translate(565 405)">
+ <path d="M125 0q-62-15-95 48-27 50-17 120l-55 210 12 430q100 70 280 20l45-435-35-220q10-105-55-151-38-27-80-22z" fill="url(#robe)" stroke="#171923" stroke-width="8"/>
+ <path d="M70 38q-30 100-5 200l50 120 65-125q25-120-4-192-49-36-106-3z" fill="#171c27"/>
+ <path d="M75 42q-28 65-20 155l57 100 52-103q17-83-8-150-37-25-81-2z" fill="#d6cbb9" opacity=".95"/>
+ <path d="M76 45q-48 40-62 130-18 120-52 218l44 30q66-90 93-235zM171 38q62 62 62 190l25 175-48 28q-51-112-66-236z" fill="#090f1a"/>
+ <path d="M25 365q95 58 220 8l25 150q-110 75-285 8z" fill="#101724" stroke="#8d6a50" stroke-width="4"/>
+ <path d="M42 410q90 32 182 0" fill="none" stroke="#c29a6d" stroke-width="5"/>
+ <path d="M190 430 285 650" stroke="#b48a5e" stroke-width="13"/><path d="M180 423 207 410l24 32-27 18z" fill="#d1ad79"/>
+ <path d="M96 18q-50-10-85 60-42 85-35 245" fill="none" stroke="#080d16" stroke-width="24"/>
+ <path d="M90 12q-25-60 28-80 61-12 82 35l-4 72q-45 43-106-2z" fill="#121923" stroke="#080d16" stroke-width="7"/>
+ <path d="M92 17q-5-53 34-58 45-3 54 39l-8 48q-43 25-80-5z" fill="#c7a98f"/>
+ <path d="M98 12q23-16 42-8m15 0q14-8 25-2" stroke="#29212a" stroke-width="6" fill="none"/>
+ <path d="M104 27q26 14 50 0" stroke="#6f4e47" stroke-width="4" fill="none"/>
+ <path d="M65 50q-60 90-35 260M190 50q52 105 30 250" stroke="#282a34" stroke-width="17" fill="none"/>
+</g>
+<!-- foreground silhouette and vignette -->
+<rect width="900" height="1300" fill="none" stroke="#090e18" stroke-width="50" opacity=".28"/>
+<rect width="900" height="1300" fill="url(#mist)" opacity=".08"/>
+</svg>
