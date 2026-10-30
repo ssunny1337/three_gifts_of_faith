@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#111522">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Три дара судьбы">
+  <meta name="description" content="Небольшое путешествие в восточную сказку.">
+  <link rel="manifest" href="./manifest.json">
+  <link rel="apple-touch-icon" href="./icons/icon-192.png">
+  <link rel="stylesheet" href="./style.css">
+  <title>Три дара судьбы</title>
+</head>
+<body>
+  <main id="app" class="app">
+    <div class="ambient ambient-one"></div>
+    <div class="ambient ambient-two"></div>
+    <header class="topbar">
+      <div class="brand-mark">✧</div>
+      <div class="brand-name">ЛЕТОПИСЬ СУДЬБЫ</div>
+      <button id="sound-toggle" class="sound-toggle" type="button" aria-label="Включить или выключить звук" title="Звук">♫</button>
+    </header>
+
+    <section id="screen" class="screen" aria-live="polite">
+      <div class="scene scene-intro">
+        <div class="moon"></div>
+        <div class="mountain mountain-back"></div>
+        <div class="mountain mountain-front"></div>
+        <div class="bamboo bamboo-left">〰</div>
+        <div class="bamboo bamboo-right">〰</div>
+        <div class="intro-content">
+          <div class="eyebrow">ВОСТОЧНАЯ СКАЗКА · ОСОБЕННЫЙ ДЕНЬ</div>
+          <h1>Три дара<br><em>судьбы</em></h1>
+          <div class="ornament"><span></span> ❖ <span></span></div>
+          <p class="intro-subtitle">История о тайнах, предназначении<br>и самом ценном сокровище.</p>
+          <button id="begin-btn" class="primary-btn" type="button">Начать историю <span>→</span></button>
+          <div class="small-note">ОДНА КОМНАТА · ТРИ СЕКРЕТА</div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <span class="footer-line"></span>
+      <span>✧</span>
+      <span class="footer-line"></span>
+    </footer>
+  </main>
+  <script src="./script.js"></script>
+  <script>if ("serviceWorker" in navigator) window.addEventListener("load", () => navigator.serviceWorker.register("./service-worker.js").catch(() => {}));</script>
+</body>
+</html>
